@@ -48,7 +48,7 @@ El análisis forense se realiza sin montar la imagen, respetando el principio fo
 
 ### Para ejecutar todas las funcionalidades del codigo se necesita:
 
-- **WSL** (Ubuntu recomendado)
+- **WSL** (Ubuntu recomendado): En caso de no tenerlo, usar el comando wsl --install -d Ubuntu
 - **Python 3.10+**
 - Herramientas Linux:
   - `dd`
@@ -68,7 +68,7 @@ git clone https://github.com/tuusuario/forensic_ext4_recover.git
 cd forensic_ext4_recover
 
 ### 2. Entrar a WSL
-wsl
+wsl -d ubuntu
 
 ### Ejecución de los Tests
 A continuación se muestra cómo ejecutar cada uno de los scripts incluidos en la carpeta tests/.
